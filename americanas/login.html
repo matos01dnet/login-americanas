@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://images-americanas.b2w.io/catalog-statics/acom/favicon-americanas.ico" sizes="16x16">
+    <title>login</title>
+    <script>
+        function funcaoteste(){
+            document.getElementById("password").style.border = "solid 3px red"
+
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #666;
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        .containe {
+            padding: 0px;
+            margin: 0px;
+            position: absolute;
+            top: 50%;
+            left: 55%;
+            transform: translate(-70%, -48%)
+        }
+
+        .vermelho {
+
+            width: 2000%;
+            height: 93px;
+            padding-bottom: 5px;
+            background-color: #f80032;
+
+        }
+
+        .imagem01 {
+            position: relative;
+            top: -68px;
+            right: -170px;
+            width: 800px;
+            height: 160px;
+
+        }
+
+        .bi-person {
+            position: absolute;
+            left: -49px;
+            top: 20px;
+            color: red;
+
+
+        }
+
+        .principal {
+            margin-top: -29px;
+            position: absolute;
+            top: -13px;
+            left: 120px;
+        }
+
+
+        h1 {
+            margin:20px 0px 0px 0px;
+            margin-left: -16px;
+            font-size: 29px;
+            text-transform: lowercase;
+            color: #666;
+        }
+
+        p {
+            font-size: 15px;
+            text-align: center;
+
+        }
+
+
+        form {
+            text-align: center;
+
+
+        }
+
+        input {
+            width: 340px;
+            height:23px;
+            border: solid 1px #ccc;
+            margin-bottom: 17px;
+            padding: 10px 10px 10px 10px;
+
+
+        }
+
+        label {
+            text-transform: lowercase;
+            position: absolute;
+            left: 3px;
+            font-size: 14px;
+        }
+        button{
+            padding: 5px 5px 5px 5px;
+            width: 100%;
+            height: 38px;
+            border-radius: 3px;
+            border: solid 2px red;
+            color: azure;
+            font-size: 17px;
+            text-transform: lowercase;
+            margin-bottom: 0px;
+            
+    }
+    button{
+        cursor: pointer;
+        color:#fff;
+        background-color:#e60014;
+        border:solid 1px red;
+        
+    }
+    button:hover{
+        color:#fff;
+        background-color: #eb3343;
+        transition:all -3.9s ease-in
+        }
+ .cadastro{
+    color:#666;
+    font-size: 14px;
+    margin-bottom: px;
+ }
+ #final2{
+    margin: 33px 0px 30px 00px;
+ }
+ a{
+    color: #666;
+ }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <div class="vermelho"></div>
+
+    <header class="imagem01" >           
+
+        <a href="https://www.americanas.com.br/"> 
+       <img src="imagens.2/certinho.png" alt="imagem01"></a> 
+
+    </header>
+
+    <div class="containe">
+
+
+
+        <form action="">
+
+            <section>
+
+                <div class="principal">
+                    <h1> login do cliente <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#666"
+                            class="bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                        </svg></h1>
+                </div>
+
+                <p>Veja seus pedidos de forma fácil, compre mais <br>rápido e tenha uma experiência
+                    personalizada :) </p>
+
+                <label>e-mail:</label><br>
+                <input type="email" name="email" id="" placeholder="Ex. joaodasilva@gmail.com"><br>
+                <label>senha na americanas: </label><br>
+                <input type="password" name="password" id="password"><br><br>
+
+                <button onclick="javascript:funcaoteste()" type="button" id="button" value="aciona"> <a href="#"></a>continuar</button>
+
+                <p class="cadastro" id="final2"> não tem cadastro?  <a href="criar_cadastro.html">cadastre-se</a>
+                 </p>
+                <p class="cadastro"> Ao continuar com o acesso, você concorda com a nossa<br>
+                 <a href="privacidade.html">política de privacidade </a></p>
+              
+
+
+               
+            </section>
+
+        </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
